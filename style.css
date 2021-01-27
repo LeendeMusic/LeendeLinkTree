@@ -2,6 +2,27 @@
     font-family: 'Nunito', sans-serif;
 }
 
+html {
+    height: 100vh;
+    margin: 0;
+    position: fixed;
+}
+
+header {
+    height: 100vh;
+    margin: 0;
+    position: fixed;
+
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    position: fixed;
+    width: 100vw;
+    padding-left:;
+}
+
 @media screen and (min-width: 481px) {
     .top {
         background-color: #f2efe4;
@@ -90,23 +111,4 @@
 
 }
 
-html {
-    height: 100vh;
-    margin: 0;
-    position: fixed;
-}
 
-header {
-    height: 100vh;
-    margin: 0;
-    position: fixed;
-
-}
-
-body {
-    height: 100vh;
-    margin: 0;
-    position: fixed;
-    width: 100vw;
-    
-}
