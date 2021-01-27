@@ -18,6 +18,8 @@ body {
     height: 100vh;
     margin: 0;
     overflow: hidden;
+    position: fixed;
+    width: 100vw;
 }
 
 @media screen and (min-width: 481px) {
