@@ -6,7 +6,7 @@
     .top {
         background-color: #f2efe4;
         color: #2f2f2f;
-        height: 100vh;
+        height: 150vh;
         position: fixed;
         width: 100vw;
     }
@@ -48,16 +48,16 @@
 
 @media screen and (max-width: 480px) { 
     .top {
-        background-color: #1e1e1e;
+        background-color: #f2efe4;
         color: #2f2f2f;
-        height: 100vh;
+        height: 150vh;
         position: fixed;
         width: 100vw;
     }
     
     .top img {
         width: 70px;
-        padding-top: 30vh;
+        padding-top: 20vh;
     }
     
     .name {
