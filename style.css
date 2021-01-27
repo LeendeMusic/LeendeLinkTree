@@ -14,41 +14,86 @@ body {
     height: 100vh;
 }
 
-.top {
-    background-color: #f2efe4;
-    color: #2f2f2f;
-    height: 100vh;
+@media screen and (min-width: 481px) {
+    .top {
+        background-color: #f2efe4;
+        color: #2f2f2f;
+        height: 100vh;
+    }
+    
+    .top img {
+        width: 70px;
+        padding-top: 30vh;
+    }
+    
+    .name {
+        font-weight: 900;
+        padding-top: 15px;
+    }
+    
+    .msg {
+        font-weight: 800;
+        font-style: italic;
+        padding-top: 15px;
+    }
+    .icons {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .icons :hover {
+        color: #2f2f2f;
+    }
+    
+    .icon {
+        padding: 10px;
+        color: #2f2f2f;
+    }
+    
+    .label {
+        padding-top: 30px;
+        font-weight: 700;
+    }
+
 }
 
-.top img {
-    width: 70px;
-    padding-top: 30vh;
-}
+@media screen and (max-width: 480px) { 
+    .top {
+        background-color: #f2efe4;
+        color: #2f2f2f;
+        height: 100vh;
+    }
+    
+    .top img {
+        width: 70px;
+        padding-top: 10vh;
+    }
+    
+    .name {
+        font-weight: 900;
+        padding-top: 15px;
+    }
+    
+    .msg {
+        font-weight: 800;
+        font-style: italic;
+        padding-top: 15px;
+    }
+    .icons {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .icons :hover {
+        color: #2f2f2f;
+    }
+    
+    .icon {
+        padding: 10px;
+        color: #2f2f2f;
+    }
+    
+    .label {
+        padding-top: 30px;
+        font-weight: 700;
+    }
 
-.name {
-    font-weight: 900;
-    padding-top: 15px;
-}
-
-.msg {
-    font-weight: 800;
-    font-style: italic;
-    padding-top: 15px;
-}
-.icons {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.icons :hover {
-    color: #2f2f2f;
-}
-
-.icon {
-    padding: 10px;
-    color: #2f2f2f;
-}
-
-.label {
-    padding-top: 30px;
-    font-weight: 700;
 }
