@@ -27,6 +27,8 @@ body {
         background-color: #f2efe4;
         color: #2f2f2f;
         height: 100vh;
+        position: fixed;
+        width: 100vw;
     }
     
     .top img {
@@ -69,6 +71,8 @@ body {
         background-color: #f2efe4;
         color: #2f2f2f;
         height: 100vh;
+        position: fixed;
+        width: 100vw;
     }
     
     .top img {
