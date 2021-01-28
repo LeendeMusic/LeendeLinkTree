@@ -22,92 +22,45 @@ body {
     width: 100%;
 }
 
-@media screen and (min-width: 481px) {
-    .top {
-        background-color: #f2efe4;
-        color: #2f2f2f;
-        height: 100%;
-        position: fixed;
-        width: 100%;
-    }
-    
-    .top img {
-        width: 70px;
-        padding-top: 30%;
-    }
-    
-    .name {
-        font-weight: 900;
-        padding-top: 1%;
-    }
-    
-    .msg {
-        font-weight: 800;
-        font-style: italic;
-        padding-top: 0.5%;
-    }
-    .icons {
-        padding-left: 0.5%;
-        padding-right: 0.5%;
-    }
-    .icons :hover {
-        color: #2f2f2f;
-    }
-    
-    .icon {
-        padding: 0.5%;
-        color: #2f2f2f;
-    }
-    
-    .label {
-        padding-top: 10%;
-        font-weight: 700;
-    }
 
+.top {
+    background-color: #f2efe4;
+    color: #2f2f2f;
+    height: 100%;
+    position: fixed;
+    width: 100%;
 }
 
-@media screen and (max-width: 480px) { 
-    .top {
-        background-color: #f2efe4;
-        color: #2f2f2f;
-        height: 100%;
-        position: fixed;
-        width: 100%;
-    }
-    
-    .top img {
-        width: 70px;
-        padding-top: 20%;
-    }
-    
-    .name {
-        font-weight: 900;
-        padding-top: 1%;
-    }
-    
-    .msg {
-        font-weight: 800;
-        font-style: italic;
-        padding-top: 0.5%;
-    }
-    .icons {
-        padding-left: 0.5%;
-        padding-right: 0.5%;
-    }
-    .icons :hover {
-        color: #2f2f2f;
-    }
-    
-    .icon {
-        padding: 2%;
-        color: #2f2f2f;
-    }
-    
-    .label {
-        padding-top: 10%;
-        font-weight: 700;
-    }
-
+.top img {
+    width: 70px;
+    padding-top: 30%;
 }
 
+.name {
+    font-weight: 900;
+    padding-top: 1%;
+}
+
+.msg {
+    font-weight: 800;
+    font-style: italic;
+    padding-top: 0.5%;
+}
+.icons {
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+.icons :hover {
+    color: #2f2f2f;
+}
+
+.icon {
+    padding: 0.5%;
+    color: #2f2f2f;
+}
+
+.label {
+    padding-top: 10%;
+    font-weight: 700;
+}
 
