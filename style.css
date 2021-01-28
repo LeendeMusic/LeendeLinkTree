@@ -3,64 +3,64 @@
 }
 
 html {
-    height: 100%;
+    height: 100vh;
     margin: 0;
     position: fixed;
 }
 
 header {
-    height: 100%;
+    height: 100vh;
     margin: 0;
     position: fixed;
 
 }
 
 body {
-    height: 100%;
+    height: 100vh;
     margin: 0;
     position: fixed;
-    width: 100%;
+    width: 100vw;
 }
 
 
-.top {
+#top {
     background-color: #f2efe4;
     color: #2f2f2f;
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
     position: fixed;
-    width: 100%;
 }
 
-.top img {
+#top img {
     width: 70px;
-    padding-top: 30%;
+    padding-top: 30vh;
 }
 
 .name {
     font-weight: 900;
-    padding-top: 1%;
+    padding-top: 1vh;
 }
 
 .msg {
     font-weight: 800;
     font-style: italic;
-    padding-top: 0.5%;
+    padding-top: 0.5vh;
 }
 .icons {
-    padding-left: 0.5%;
-    padding-right: 0.5%;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
 }
 .icons :hover {
     color: #2f2f2f;
 }
 
 .icon {
-    padding: 0.5%;
+    padding: 10px;
     color: #2f2f2f;
 }
 
 .label {
-    padding-top: 10%;
+    padding-top: 10vh;
     font-weight: 700;
 }
 
