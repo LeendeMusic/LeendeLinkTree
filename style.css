@@ -33,7 +33,7 @@ body {
 
 #top img {
     width: 70px;
-    padding-top: 30vh;
+    padding-top: 20vh;
 }
 
 .name {
@@ -60,7 +60,7 @@ body {
 }
 
 .label {
-    padding-top: 10vh;
+    padding-top: 5vh;
     font-weight: 700;
 }
 
